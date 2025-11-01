@@ -1,0 +1,5 @@
+px4_ros2_gazebo.yml
+Dockerfile
+yolov8m.pt
+default_docker.sdf
+__pycache__/
