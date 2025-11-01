@@ -1,8 +1,16 @@
 # PX4-ROS2-Gazebo-YOLOv8
 Обнаружение объектов с воздуха с помощью дрона на базе PX4 Autopilot и ROS 2. Для симуляции используется PX4 SITL и Gazebo Harmonic. YOLOv8 применяется для обнаружения объектов.
 
-## Демо
-https://github.com/monemati/PX4-ROS2-Gazebo-YOLOv8/assets/58460889/fab19f49-0be6-43ea-a4e4-8e9bc8d59af9
+---
+
+## 🙏 Благодарность
+Особая благодарность пользователю [**monemati**](https://github.com/monemati) за его репозиторий,  
+который послужил основой и вдохновением для этого проекта.
+
+---
+
+## 🎥 Демо проекта
+[![Смотреть демо](https://img.youtube.com/vi/YEABogRBKM4/hqdefault.jpg)](https://youtu.be/YEABogRBKM4)
 
 ## Установка (нативно, без Docker)
 Проект протестирован на **Ubuntu 24.04 LTS (Noble)** с ROS 2 Jazzy и Gazebo Harmonic. Используйте PX4-Autopilot v1.15.0.
@@ -134,8 +142,10 @@ ros2 run px4_ros_com offboard_control
 ```
 (Поза: измените на "283.08,-136.22,3.86,0.00,0,-0.7" для избежания столкновений.)
 
-## Благодарности
+## Источники
 - https://github.com/PX4/PX4-Autopilot
+- https://docs.px4.io/main/en/ros2/user_guide
+- https://stepik.org/course/221157/info
 - https://github.com/ultralytics/ultralytics
 - https://www.ros.org/
 - https://gazebosim.org/
